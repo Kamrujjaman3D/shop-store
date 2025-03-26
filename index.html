@@ -57,7 +57,7 @@
         </div>
         <div class="navbar-end">
           <div class="flex flex-row justify-center items-center gap-5 font-medium text-lg">
-            <button class="text-accent">
+            <button class="text-[#6a9739]">
               <span>$20..00</span>
               <i class="fa-solid fa-cart-shopping"></i>
             </button>
@@ -65,7 +65,7 @@
           </div>
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <i class="fa-solid fa-bars bg-accent p-2 rounded-sm"></i>
+              <i class="fa-solid fa-bars bg-[#6a9739] p-2 rounded-sm"></i>
             </div>
             <ul tabindex="0"
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-lg font-medium right-0 gap-2">
@@ -79,15 +79,347 @@
         </div>
       </div>
     </nav>
+    <!-- banner section -->
+    <section class="bg-[#f8f6f3]">
+      <div class="flex sm:flex-row flex-col justify-between items-center gap-8 lg:w-10/12 mx-auto py-16">
+        <div class="flex-1">
+          <img src="images/bannerbg.png" alt="">
+        </div>
+        <div class="flex-1 sm:text-left text-center">
+          <h6 class="font-medium sm:text-lg">Best Quality Products</h6>
+          <h2 class="lg:text-6xl text-4xl font-bold leading-tight ">Join The Organic <br> Movement!</h2>
+          <p class="my-5">Choose a healthier lifestyle with organic products, free from harmful chemicals. Support
+            sustainable farming, protect
+            the environment, and enjoy fresh, nutritious food while promoting a greener and healthier future for all.
+          </p>
+          <div class="flex sm:justify-start justify-center ">
+            <button
+              class="btn flex justify-center items-center bg-[#6a9739] text-white text-lg px-5 py-6 hover:bg-[#8bc34a]">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Shop Now</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
   </header>
   <!-- main -->
-  <main>
+  <main class="md:container md:mx-auto ">
+    <!-- About us section -->
+    <section>
+      <div class="flex sm:flex-row flex-col-reverse justify-between items-center gap-2 py-16">
 
+        <div class="flex-1 sm:text-left text-center">
+          <h6 class="font-medium sm:text-lg my-4">About Us</h6>
+          <h2 class="lg:text-6xl text-4xl font-bold leading-tight my-5 pl-0">Tell Websit Visitors Who You Are And Why
+            They
+            Should
+            Choose Your Business</h2>
+          <p class="my-5">We are a dedicated legal solutions firm committed to providing expert guidance in criminal,
+            family, corporate, and tax
+            law. Our experienced attorneys ensure personalized strategies, transparency, and justice. Choose us for
+            trusted legal
+            representation, client-focused service, and a proven track record of success.
+          </p>
+          <div class="flex sm:justify-start justify-center ">
+            <button
+              class="btn flex justify-center items-center bg-[#6a9739] text-white text-lg px-5 py-6 hover:bg-[#8bc34a]">
+              Find Out More
+            </button>
+          </div>
+        </div>
+        <div class="flex-1 ">
+          <img class="lg:w-9/12" src="images/about.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- Insert a call to action section or hero section -->
+    <section>
+      <div class="hero"
+        style="background-image: url(images/call.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content text-neutral-content text-center ">
+          <div class="py-20 ">
+            <h1 class=" lg:text-6xl text-4xl font-bold">Insert a call to action</h1>
+            <p class="my-7 w-3/4 mx-auto">
+              Shop now for the best deals! Explore our latest collections, enjoy exclusive discounts, and get fast
+              delivery. Don't
+              miss out—grab your favorite items today before they're gone!
+            </p>
+            <button class="btn btn-outline">Get In Touch</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Best Selling Products section -->
+    <div class="w-full">
+      <section class="my-28">
+        <div>
+          <h2 class="text-4xl font-bold text-center">Best Selling Products</h2>
+        </div>
+
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2 gap-8 p-2">
+          <!-- card-1 -->
+          <div class="card bg-base-100 shadow-sm ">
+            <figure class="px-10 pt-10">
+              <img src="images/product01.jpg" />
+            </figure>
+            <div class="card-body items-center text-center space-y-1">
+              <p class="text-gray-500">Groceries</p>
+              <h2 class="card-title">Assorted Coffee</h2>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star"
+                  aria-current="true" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+              </div>
+              <p>$35.00</p>
+              <div class="card-actions">
+                <button
+                  class="btn flex justify-center items-center bg-[#6a9739] text-white px-5 py-6 hover:bg-[#8bc34a]">
+
+                  <span>Shop Now</span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="card bg-base-100 shadow-sm ">
+            <figure class="px-10 pt-10">
+              <img src="images/product02.jpg" />
+            </figure>
+            <div class="card-body items-center text-center space-y-1">
+              <p class="text-gray-500">Groceries</p>
+              <h2 class="card-title">Assorted Coffee</h2>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star"
+                  aria-current="true" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+              </div>
+              <p>$35.00</p>
+              <div class="card-actions">
+                <button
+                  class="btn flex justify-center items-center bg-[#6a9739] text-white px-5 py-6 hover:bg-[#8bc34a]">
+
+                  <span>Shop Now</span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="card bg-base-100 shadow-sm ">
+            <figure class="px-10 pt-10">
+              <img src="images/product03.jpg" />
+            </figure>
+            <div class="card-body items-center text-center space-y-1">
+              <p class="text-gray-500">Groceries</p>
+              <h2 class="card-title">Assorted Coffee</h2>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star"
+                  aria-current="true" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+              </div>
+              <p>$35.00</p>
+              <div class="card-actions">
+                <button
+                  class="btn flex justify-center items-center bg-[#6a9739] text-white px-5 py-6 hover:bg-[#8bc34a]">
+
+                  <span>Shop Now</span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="card bg-base-100 shadow-sm ">
+            <figure class="px-10 pt-10">
+              <img src="images/product04.jpg" />
+            </figure>
+            <div class="card-body items-center text-center space-y-1">
+              <p class="text-gray-500">Groceries</p>
+              <h2 class="card-title">Assorted Coffee</h2>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star"
+                  aria-current="true" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+              </div>
+              <p>$35.00</p>
+              <div class="card-actions">
+                <button
+                  class="btn flex justify-center items-center bg-[#6a9739] text-white px-5 py-6 hover:bg-[#8bc34a]">
+
+                  <span>Shop Now</span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card-5 -->
+          <div class="card bg-base-100 shadow-sm ">
+            <figure class="px-10 pt-10">
+              <img src="images/product05.jpg" />
+            </figure>
+            <div class="card-body items-center text-center space-y-1">
+              <p class="text-gray-500">Groceries</p>
+              <h2 class="card-title">Assorted Coffee</h2>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star"
+                  aria-current="true" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+              </div>
+              <p>$35.00</p>
+              <div class="card-actions">
+                <button
+                  class="btn flex justify-center items-center bg-[#6a9739] text-white px-5 py-6 hover:bg-[#8bc34a]">
+
+                  <span>Shop Now</span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card-6 -->
+          <div class="card bg-base-100 shadow-sm ">
+            <figure class="px-10 pt-10">
+              <img src="images/product06.jpg" />
+            </figure>
+            <div class="card-body items-center text-center space-y-1">
+              <p class="text-gray-500">Groceries</p>
+              <h2 class="card-title">Assorted Coffee</h2>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star"
+                  aria-current="true" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+              </div>
+              <p>$35.00</p>
+              <div class="card-actions">
+                <button
+                  class="btn flex justify-center items-center bg-[#6a9739] text-white px-5 py-6 hover:bg-[#8bc34a]">
+
+                  <span>Shop Now</span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card-7 -->
+          <div class="card bg-base-100  shadow-sm ">
+            <figure class="px-10 pt-10">
+              <img src="images/product07.jpg" />
+            </figure>
+            <div class="card-body items-center text-center space-y-1">
+              <p class="text-gray-500">Groceries</p>
+              <h2 class="card-title">Assorted Coffee</h2>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star"
+                  aria-current="true" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+              </div>
+              <p>$35.00</p>
+              <div class="card-actions">
+                <button
+                  class="btn flex justify-center items-center bg-[#6a9739] text-white px-5 py-6 hover:bg-[#8bc34a]">
+
+                  <span>Shop Now</span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card-8 -->
+          <div class="card bg-base-100  shadow-sm ">
+            <figure class="px-10 pt-10">
+              <img src="images/product08.jpg" />
+            </figure>
+            <div class="card-body items-center text-center space-y-1">
+              <p class="text-gray-500">Groceries</p>
+              <h2 class="card-title">Assorted Coffee</h2>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star"
+                  aria-current="true" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+              </div>
+              <p>$35.00</p>
+              <div class="card-actions">
+                <button
+                  class="btn flex justify-center items-center bg-[#6a9739] text-white px-5 py-6 hover:bg-[#8bc34a]">
+
+                  <span>Shop Now</span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
   <!-- footer -->
-  <footer>
 
-  </footer>
+  <div class="bg-gray-950">
+    <footer class="footer sm:footer-horizontal text-gray-200 text-base-content p-10 md:container md:mx-auto">
+      <aside>
+        <img class="w-36 h-14" src="images/logo-white.png" alt="">
+        <p>
+
+          Providing Organic Food since 1992
+        </p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Services</h6>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Company</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Legal</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
+  </div>
 </body>
 
 </html>
