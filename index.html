@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-them="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Google font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- tailwind and diasyui cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Tailwind CSS Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            primary: '#8bc34a',
+            secondary: '#111111',
+            body: '#f8f6f3',
+            accent: '#6a9739',
+            body_neutral: '#153333',
+          }
+        }
+      }
+    }
+  </script>
+
+
+</head>
+
+<body class=" font-family: " Poppins", sans-serif;">
+  <!-- header -->
+  <header class="md:container md:mx-auto w">
+    <!-- navbar -->
+    <nav>
+      <div class="navbar p-0 py-3">
+        <div class="navbar-start">
+          <img class="w-36 h-16" src="images/logo.svg" alt="">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-lg font-medium">
+            <li class="hover:text-primary transition-colors duration-75 ease-in-out"><a href="">Groceries</a></li>
+            <li class="hover:text-primary transition-colors duration-75 ease-in-out"><a href="">Everything</a></li>
+            <li class="hover:text-primary transition-colors duration-75 ease-in-out"><a>Home</a></li>
+            <li class="hover:text-primary transition-colors duration-75 ease-in-out"><a href="">About</a></li>
+            <li class="hover:text-primary transition-colors duration-75 ease-in-out"><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="flex flex-row justify-center items-center gap-5 font-medium text-lg">
+            <button class="text-accent">
+              <span>$20..00</span>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button><i class="fa-solid fa-user"></i></button>
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <i class="fa-solid fa-bars bg-accent p-2 rounded-sm"></i>
+            </div>
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-lg font-medium right-0 gap-2">
+              <li class="hover:text-primary transition-colors duration-75 ease-in-out"><a href="">Groceries</a></li>
+              <li class="hover:text-primary transition-colors duration-75 ease-in-out"><a href="">Everything</a></li>
+              <li class="hover:text-primary transition-colors duration-75 ease-in-out"><a>Home</a></li>
+              <li class="hover:text-primary transition-colors duration-75 ease-in-out"><a href="">About</a></li>
+              <li class="hover:text-primary transition-colors duration-75 ease-in-out"><a>Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- main -->
+  <main>
+
+  </main>
+  <!-- footer -->
+  <footer>
+
+  </footer>
+</body>
+
+</html>
